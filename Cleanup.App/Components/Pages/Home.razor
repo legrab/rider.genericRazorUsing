@@ -1,5 +1,12 @@
 ﻿@page "/"
+@using Cleanup.RazorUsing.Lib.NonGenericComponents
+@using Cleanup.RazorUsing.Lib.GenericComponents
 
 <PageTitle>Home</PageTitle>
 
 <h1>Hello, rider!</h1>
+
+I'm referencing both generic and non-generic components.
+
+<NonGenericComponent/>
+<GenericComponent T="int"/>
